@@ -27,3 +27,4 @@ CREATE TABLE "public"."agents" (
   "country" varchar(25) COLLATE "pg_catalog"."default" NOT NULL
 )
 ;
+ALTER TABLE "public"."agents" OWNER TO "postgres";
