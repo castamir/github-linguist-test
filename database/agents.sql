@@ -28,3 +28,11 @@ CREATE TABLE "public"."agents" (
 )
 ;
 ALTER TABLE "public"."agents" OWNER TO "postgres";
+
+
+-- ----------------------------
+-- Records of agents
+-- ----------------------------
+BEGIN;
+INSERT INTO "public"."agents" VALUES ('123');
+COMMIT;
